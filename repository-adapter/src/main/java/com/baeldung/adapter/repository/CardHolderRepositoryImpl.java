@@ -30,7 +30,7 @@ public class CardHolderRepositoryImpl implements CardHolderRepository {
     public CardHolder UpdateCardHolder(CardHolder cardHolder) throws CardHolderNotFoundException {
 
         if (!dataStore.containsKey(cardHolder.getCardHolderId())) {
-            throw new CardHolderNotFoundException("Customer " + cardHolder.getCardHolderId() + "can't be found");
+            throw new CardHolderNotFoundException("Card Holder " + cardHolder.getCardHolderId() + "can't be found");
         }
 
         dataStore.put(cardHolder.getCardHolderId(), cardHolder);
