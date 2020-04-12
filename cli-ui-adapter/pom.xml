@@ -10,19 +10,19 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>command-console-adapter</artifactId>
+	<artifactId>cli-ui-adapter</artifactId>
 
-	<name>command-console-adapter</name>
+	<name>cli-ui-adapter</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.baeldung</groupId>
-			<artifactId>appcore</artifactId>
+			<artifactId>coreapp</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.baeldung</groupId>
-			<artifactId>inmemory-repository-adapter</artifactId>
+			<artifactId>repository-adapter</artifactId>
 		</dependency>
 	</dependencies>
 </project>

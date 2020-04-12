@@ -8,15 +8,15 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>inmemory-repository-adapter</artifactId>
+  <artifactId>repository-adapter</artifactId>
 
-  <name>inmemory-repository-adapter</name>
+  <name>repository-adapter</name>
   <url>http://maven.apache.org</url>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.baeldung</groupId>
-			<artifactId>appcore</artifactId>
+			<artifactId>coreapp</artifactId>
 		</dependency>
 	</dependencies>
 </project>

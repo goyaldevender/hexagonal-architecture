@@ -21,17 +21,17 @@
 	 <dependencies>
 	             <dependency>
 	                    <groupId>com.baeldung</groupId>
-	                     <artifactId>appcore</artifactId>
+	                     <artifactId>coreapp</artifactId>
 	                     <version>${project.version}</version>
 	            </dependency>
 	            <dependency>
 	                    <groupId>com.baeldung</groupId>
-	                     <artifactId>inmemory-repository-adapter</artifactId>
+	                     <artifactId>repository-adapter</artifactId>
 	                     <version>${project.version}</version>
 	            </dependency>
 	            <dependency>
 	                    <groupId>com.baeldung</groupId>
-	                     <artifactId>command-console-adapter</artifactId>
+	                     <artifactId>cli-ui-adapter</artifactId>
 	                     <version>${project.version}</version>
 	            </dependency>
 	 </dependencies>

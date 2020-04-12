@@ -7,8 +7,8 @@
     <artifactId>base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>appcore</artifactId>
-  <name>appcore</name>
+  <artifactId>coreapp</artifactId>
+  <name>coreapp</name>
   <url>http://maven.apache.org</url>
 
 
