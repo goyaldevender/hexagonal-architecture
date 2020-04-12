@@ -59,12 +59,10 @@ public class CardHolderServiceImpl implements CardHolderService {
     }
 
     public List<CardHolder> getAllCardHolders() {
-        // TODO Auto-generated method stub
         return repo.findAll();
     }
 
     public Optional<CardHolder> findCardHolderById(int cardHolderId) {
-        // TODO Auto-generated method stub
         return repo.findCardHolderById(cardHolderId);
     }
 
