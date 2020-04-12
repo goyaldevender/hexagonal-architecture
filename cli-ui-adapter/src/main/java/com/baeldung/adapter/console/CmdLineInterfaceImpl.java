@@ -25,11 +25,11 @@ public class CmdLineInterfaceImpl implements CmdLineInterface {
         List<CardHolder> allCardHolders = cardHolderService.getAllCardHolders();
 
         allCardHolders.stream()
-            .forEach(c -> {
+                .forEach(c -> {
 
-                CmdLineUtils.printCardHolder(c);
-                System.out.println("------------------------------------");
-            });
+                    CmdLineUtils.printCardHolder(c);
+                    System.out.println("------------------------------------");
+                });
 
     }
 

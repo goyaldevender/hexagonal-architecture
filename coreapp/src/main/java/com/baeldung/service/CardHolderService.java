@@ -15,7 +15,7 @@ public interface CardHolderService {
     public CardHolder downgradeCardHolder(CardHolder cardHolder) throws CardHolderNotFoundException;
 
     public List<CardHolder> getAllCardHolders();
-    
+
     public Optional<CardHolder> findCardHolderById(int cardHolderId);
 
 }

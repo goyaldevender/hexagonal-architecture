@@ -1,4 +1,3 @@
-
 package com.baeldung.adapter.console;
 
 import com.baeldung.adapter.repository.CardHolderRepositoryImpl;
