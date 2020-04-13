@@ -1,4 +1,4 @@
-package com.baeldung.adapter.console;
+package com.baeldung.cli;
 
 import com.baeldung.adapter.repository.CardHolderRepositoryImpl;
 import com.baeldung.service.CardHolderService;

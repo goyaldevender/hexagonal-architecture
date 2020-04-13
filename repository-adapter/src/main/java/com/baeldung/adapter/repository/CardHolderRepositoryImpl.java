@@ -42,8 +42,8 @@ public class CardHolderRepositoryImpl implements CardHolderRepository {
     public List<CardHolder> findAll() {
         List<CardHolder> all = new ArrayList<>();
         dataStore.values()
-                .stream()
-                .forEach(c -> all.add(c));
+            .stream()
+            .forEach(c -> all.add(c));
         return all;
     }
 

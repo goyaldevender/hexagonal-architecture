@@ -1,4 +1,4 @@
-package com.baeldung.adapter.console;
+package com.baeldung.cli;
 
 import java.util.Scanner;
 
@@ -10,7 +10,6 @@ public class CmdLineUtils {
         System.out.print("$ ");
         return scanner.next();
     }
-
 
     public static void printCardHolder(CardHolder c) {
 

@@ -1,4 +1,4 @@
-package com.baeldung.adapter.console;
+package com.baeldung.cli;
 
 import java.util.Scanner;
 

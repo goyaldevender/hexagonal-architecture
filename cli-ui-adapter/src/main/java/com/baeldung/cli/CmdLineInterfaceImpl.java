@@ -1,4 +1,4 @@
-package com.baeldung.adapter.console;
+package com.baeldung.cli;
 
 import java.util.List;
 import java.util.Optional;
@@ -25,11 +25,11 @@ public class CmdLineInterfaceImpl implements CmdLineInterface {
         List<CardHolder> allCardHolders = cardHolderService.getAllCardHolders();
 
         allCardHolders.stream()
-                .forEach(c -> {
+            .forEach(c -> {
 
-                    CmdLineUtils.printCardHolder(c);
-                    System.out.println("------------------------------------");
-                });
+                CmdLineUtils.printCardHolder(c);
+                System.out.println("------------------------------------");
+            });
 
     }
 
@@ -45,10 +45,7 @@ public class CmdLineInterfaceImpl implements CmdLineInterface {
         unregistered.setLastName(lastName.toUpperCase());
 
         Random random = new Random();
-        String creditCardNumber = String.format("%04d", random.nextInt(10000)) + " " +
-                String.format("%04d", random.nextInt(10000)) + " " +
-                String.format("%04d", random.nextInt(10000)) + " " +
-                String.format("%04d", random.nextInt(10000));
+        String creditCardNumber = String.format("%04d", random.nextInt(10000)) + " " + String.format("%04d", random.nextInt(10000)) + " " + String.format("%04d", random.nextInt(10000)) + " " + String.format("%04d", random.nextInt(10000));
         unregistered.setCreditCardNumber(creditCardNumber);
 
         CardHolder registered = cardHolderService.registerCardHolder(unregistered);
